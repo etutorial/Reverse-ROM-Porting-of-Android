@@ -1,0 +1,40 @@
+%!TEX encoding = UTF-8 Unicode
+\documentclass[UTF8, a4paper, 11pt, oneside]{ctexbook}
+\usepackage{styles/content}
+\usepackage{styles/smali}
+
+\begin{document}
+\frontmatter
+\title{Android ROM逆向移植}
+\author{段启智}
+\date{2014-02-17}
+\maketitle
+
+~
+\vfill
+\thispagestyle{empty}
+\begin{center}
+\it{Publish declaration}
+\end{center}
+\vfill
+\newpage
+
+\include{chapters/preface}
+
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+\mainmatter
+%\include{chapters/general}
+%\include{chapters/tools}
+%\include{chapters/security}
+
+\backmatter
+
+\appendix
+%\include{chapter-cn/more}
+
+%\bibliography{ref}
+
+\printindex
+\end{document}
